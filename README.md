@@ -1,2 +1,1 @@
-# BookNotes
-Pretty straight forward.
+Notes taken during reading, watching, or listening to anything infosec.
