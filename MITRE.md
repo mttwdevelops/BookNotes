@@ -45,7 +45,7 @@ Detection Denial, and Disruption Framework Empowering Network Defense
 ## ATT&CK Emulation Plans
 Link:
 https://attack.mitre.org/resources/adversary-emulation-plans/
+
 https://github.com/center-for-threat-informed-defense/adversary_emulation_library
 
 Plans to emulate certain threat actors.
-
