@@ -1,3 +1,5 @@
+Link: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
+
 Steps APT takes in cyberwarfare:
 
 1. **Recon** - harvesting emails, conference info.
