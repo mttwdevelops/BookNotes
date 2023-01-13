@@ -3,6 +3,19 @@ Help get-item -xxx
 ```
 can replace ```-xxx``` with -Online or with -Full
 
+PowerShell enables you to do what you already have permission to do.
+
+
+# Day 3
+1. gps
+2. test-connection google.com
+3. get-command -type cmdlet
+4. get-alias
+5. new-alias "ntst" netstat
+6. gps -name p*
+7. new-item -path .\MyFolder1 -ItemType Directory
+8. remove-item .\MyFolder*
+
 # Day 2
 2. Yes, ConvertTo-Html.
 3. Yes, redirect.
