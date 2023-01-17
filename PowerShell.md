@@ -9,6 +9,19 @@ We use ```set-location``` in PS, but ```cd``` is the equivalent in Bash
 
 ```new-item``` followed by ```-itemtype xxx``` can create directories or items in a folder
 
+We can pipe commands using ```|```. An example is get-process | export-csv procs.csv
+
+compare-object takes two sets of info and compares them
+
+# Day 6
+1. Labq12.txt =>, labq11.txt <=
+2. Issue with out-file: cannot process argument because value of argument "path" is null. Out-file won't do anything because the file is created by Export-csv.
+3. stop-job can also go by instanceID, state, or filter. You can stop a job without get-job
+4. -delimiter "|"
+5. -includeTypeInformation
+6. -noclobber, -confirm
+7. -useCulture
+
 # Day 5
 1. new-item Labs -itemtype Directory
 2. new-item .\Labs\Test.txt
