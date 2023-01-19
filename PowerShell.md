@@ -15,6 +15,16 @@ compare-object takes two sets of info and compares them
 
 When we have issues with multiple modules having the same name for commands we use: ```xx\command```
 
+# Day 7
+1. Install-Module -Name PackageManagement, Install-Module -Name PSWindowsUpdate
+2. get-command -module XXX
+3. find-module -command compress-archive | install-module -force
+4. import-module microsoft.powershell.archive
+5. new-item ~\TestFolder -itemtype Directory, foreach { new-item -path C:\Users\vm\Documents\TestFolder\$_.txt } 
+6. compress-archive C:\Users\vm\Documents\TestFolder C:\Users\vm\Documents\TestFolder2.zip
+7. expand-archive C:/Users/vm/Documents/Testfolder2.zip -destinationpath C:/Users/vm/Documens/TestFolder2
+8. compare-object ~/TestFolder ~/TestFolder2, $reference =get-childitem ~/Documents/TestFolder | select-object -expandproperty name, $difference = get-childitem ~/Documents/TestFolder2 | select-object -expandproperty name, compare-object -referenceobject $reference -differenceobject $difference
+
 # Day 6
 1. Labq12.txt =>, labq11.txt <=
 2. Issue with out-file: cannot process argument because value of argument "path" is null. Out-file won't do anything because the file is created by Export-csv.
