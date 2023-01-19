@@ -13,6 +13,8 @@ We can pipe commands using ```|```. An example is get-process | export-csv procs
 
 compare-object takes two sets of info and compares them
 
+When we have issues with multiple modules having the same name for commands we use: ```xx\command```
+
 # Day 6
 1. Labq12.txt =>, labq11.txt <=
 2. Issue with out-file: cannot process argument because value of argument "path" is null. Out-file won't do anything because the file is created by Export-csv.
