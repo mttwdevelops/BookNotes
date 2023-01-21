@@ -15,6 +15,11 @@ compare-object takes two sets of info and compares them
 
 When we have issues with multiple modules having the same name for commands we use: ```xx\command```
 
+Objects, or individual processes in PS, have properties and methods (an action). All the properties, methods, and other things attached to an object are called its members.
+- Use Get-member (gm) instead of get-help for objects
+
+# Day 8
+
 # Day 7
 1. Install-Module -Name PackageManagement, Install-Module -Name PSWindowsUpdate
 2. get-command -module XXX
