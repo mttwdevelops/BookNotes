@@ -19,6 +19,13 @@ Objects, or individual processes in PS, have properties and methods (an action).
 - Use Get-member (gm) instead of get-help for objects
 
 # Day 8
+1. get-help random
+2. get-date
+3. get-date returns a DateTime object, can be converted into a string with .tostring()
+4. get-date | select-object DayOfWeek
+5. get-childitem or ls
+6. get-childitem | sort-object lastwritetime | select name,creationtime
+7. get-childitem | sort-object lastwritetime | select name,creationtime,lastwritetime | export-csv file.csv, get-childitem | sort-object lastwritetime | select name,creationtime,lastwritetime | out-file file.html
 
 # Day 7
 1. Install-Module -Name PackageManagement, Install-Module -Name PSWindowsUpdate
