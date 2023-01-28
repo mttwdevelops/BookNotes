@@ -18,6 +18,11 @@ When we have issues with multiple modules having the same name for commands we u
 Objects, or individual processes in PS, have properties and methods (an action). All the properties, methods, and other things attached to an object are called its members.
 - Use Get-member (gm) instead of get-help for objects
 
+Finding, installing, and getting the commands of a module
+```find-module *xxx* | format-table -auto```
+```install-module xxx```
+```get-command -module xxx | format-table -auto```
+
 # Day 8
 1. get-help random
 2. get-date
