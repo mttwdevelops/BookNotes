@@ -5,3 +5,9 @@
 ```chmod 600 PRIVATEKEYFILE``` - reconfigures file's permissions for next command 
 
 ``` ssh -i PRIVATEKEYFILE username@ip``` - uses the PRIVATEKEYFILE to authenticate username with the IP address
+
+```ping targetaddress -4``` pings targetaddress' IPv4 address
+
+```traceroute targetaddress``` shows route to target, including intermediate connections
+
+```whois targetaddress``` gives registry information about website
